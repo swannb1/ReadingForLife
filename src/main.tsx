@@ -10,7 +10,7 @@ import Donate from "./Donate.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/ReadingForLife">
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<AboutDyslexia />} />
