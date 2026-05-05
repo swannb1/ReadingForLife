@@ -15,7 +15,7 @@ const FindTutorSection = () => {
           <h2 className="font-cubano text-3xl text-[color:var(--color-orange)]">About Us</h2>
         </div>
         <p className="text-[color:var(--color-black)] font-puffin leading-7 text-base">
-          Reading For Life Southern Utah was established in ____. Our goal is to provide information about dyslexia and resources for children, youth,
+          Reading For Life Southern Utah was established in 2017. Our goal is to provide information about dyslexia and resources for children, youth,
           and adults seeking reading support in Southern Utah. We offer tutoring scholarships with instructors trained in Structured Literacy and
           Orton-Gillingham methods.
         </p>
