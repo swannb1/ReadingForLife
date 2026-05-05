@@ -1,3 +1,5 @@
+import KidsImage from "../../assets/Images/Kids.svg";
+
 const Treatment = () => {
   return (
     <section className="bg-white px-6 py-12">
@@ -5,7 +7,7 @@ const Treatment = () => {
         <div className="relative w-full max-w-md">
           <div className="absolute inset-0 bg-[color:var(--color-softBlue)] translate-x-[-16px] translate-y-[16px] rounded-xl" aria-hidden />
           <div className="relative overflow-hidden shadow-md rounded-xl">
-            <img src="/src/assets/Images/Kids.svg" alt="Children holding books" className="w-full h-full object-cover" />
+            <img src={KidsImage} alt="Children holding books" className="w-full h-full object-cover" />
           </div>
         </div>
 

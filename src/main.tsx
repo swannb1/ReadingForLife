@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
@@ -10,15 +10,15 @@ import Donate from "./Donate.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter basename="/ReadingForLife">
+    <HashRouter>
       <Routes>
-        <Route path="" element={<App />}>
+        <Route path="/" element={<App />}>
           <Route index element={<AboutDyslexia />} />
           <Route path="resources" element={<Resources />} />
           <Route path="tutoring" element={<Tutoring />} />
           <Route path="donate" element={<Donate />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 );

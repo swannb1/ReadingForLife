@@ -1,3 +1,5 @@
+import SignsImage from "../../assets/Images/Signs.svg";
+
 const SignsOfDyslexia = () => {
   return (
     <section className="bg-white px-6 py-12">
@@ -15,7 +17,7 @@ const SignsOfDyslexia = () => {
         <div className="relative w-full max-w-md justify-self-end">
           <div className="absolute inset-0 bg-[color:var(--color-orange)] translate-x-[14px] translate-y-[14px] rounded-xl" aria-hidden />
           <div className="relative overflow-hidden shadow-md rounded-xl">
-            <img src="/src/assets/Images/Signs.svg" alt="Child sitting by bookshelf" className="w-full h-full object-cover" />
+            <img src={SignsImage} alt="Child sitting by bookshelf" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
