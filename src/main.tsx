@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter basename="/ReadingForLife">
       <Routes>
-        <Route path="/" element={<App />}>
+        <Route path="" element={<App />}>
           <Route index element={<AboutDyslexia />} />
           <Route path="resources" element={<Resources />} />
           <Route path="tutoring" element={<Tutoring />} />
