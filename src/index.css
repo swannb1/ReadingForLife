@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Cubano";
-  src: url("/assets/fonts/CubanoRegular.ttf") format("truetype");
+  src: url("./assets/fonts/CubanoRegular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "Puffin Soft";
-  src: url("/assets/fonts/PuffinSoftDisplay.otf") format("opentype");
+  src: url("./assets/fonts/PuffinSoftDisplay.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
