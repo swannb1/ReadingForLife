@@ -7,6 +7,8 @@ import AboutDyslexia from "./AboutDyslexia.tsx";
 import Resources from "./Resources.tsx";
 import Tutoring from "./Tutoring.tsx";
 import Donate from "./Donate.tsx";
+import PuffinFont from "./assets/Fonts/PuffinSoftDisplay.otf";
+import CubanoFont from "./assets/Fonts/CubanoRegular.ttf";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
