@@ -1,5 +1,3 @@
-import React from "react";
-
 const ResourceCurriculum = () => {
   return (
     <section className="px-4 py-10 sm:px-6 lg:px-8">
@@ -29,34 +27,19 @@ const ResourceCurriculum = () => {
           </div>
 
           <div className="pl-4">
-            <a
-              href="https://readinghorizons.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-lg font-semibold text-slate-900 underline"
-            >
+            <a href="https://readinghorizons.com/" target="_blank" rel="noreferrer" className="text-lg font-semibold text-slate-900 underline">
               Reading Horizons
             </a>
           </div>
 
           <div className="pl-4">
-            <a
-              href="https://bartonreading.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-lg font-semibold text-slate-900 underline"
-            >
+            <a href="https://bartonreading.com/" target="_blank" rel="noreferrer" className="text-lg font-semibold text-slate-900 underline">
               Barton
             </a>
           </div>
 
           <div className="pl-4">
-            <a
-              href="https://logicofenglish.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-lg font-semibold text-slate-900 underline"
-            >
+            <a href="https://logicofenglish.com/" target="_blank" rel="noreferrer" className="text-lg font-semibold text-slate-900 underline">
               Logic of English
             </a>
           </div>

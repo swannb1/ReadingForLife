@@ -1,5 +1,3 @@
-import React from "react";
-
 const ResourceSLPInfo = () => {
   return (
     <section className="px-4 py-10 sm:px-6 lg:px-8">
