@@ -10,9 +10,44 @@ type Tutor = {
   schoolYear: string;
   location: string;
   availability: string;
+  online?: string;
 };
 
 const tutorList: Tutor[] = [
+  {
+    name: "Janice Chandler",
+    city: "Santa Clara",
+    certification: "Orton Gillingham Tutor, BS, MS",
+    phone: "(435)817-6734",
+    email: "Janchan16@gmail.com",
+    summer: "Yes",
+    schoolYear: "Yes",
+    location: "Bloomington, UT",
+    availability: "Yes",
+    online: "Yes",
+  },
+  {
+    name: "Allyson Gardner",
+    city: "Santa Clara",
+    certification: "Orton Gillingham Tutor, BS, MS",
+    phone: "(435)313-6934",
+    email: "allyson@kidsnbooks.com",
+    summer: "Yes",
+    schoolYear: "Yes",
+    location: "Santa Clara, UT",
+    availability: "Yes",
+  },
+  {
+    name: "Liz Garcia",
+    city: "Washington",
+    certification: "Orton Gillingham Certified Tutor",
+    phone: "(801)857-1900",
+    email: "decodingreading@gmail.com",
+    summer: "TBD",
+    schoolYear: "TBD",
+    location: "Washington, UT",
+    availability: "TBD",
+  },
   {
     name: "Melanie Palmer",
     certification: "Wilson Level 1",
@@ -105,39 +140,6 @@ const tutorList: Tutor[] = [
     location: "St. George, UT",
     availability: "TBD",
   },
-  {
-    name: "Janice Chandler",
-    city: "Santa Clara",
-    certification: "Orton Gillingham Tutor, BS, MS",
-    phone: "(435)817-6734",
-    email: "Janchan16@gmail.com",
-    summer: "TBD",
-    schoolYear: "TBD",
-    location: "Santa Clara, UT",
-    availability: "TBD",
-  },
-  {
-    name: "Liz Garcia",
-    city: "Washington",
-    certification: "Orton Gillingham Certified Tutor",
-    phone: "(801)857-1900",
-    email: "decodingreading@gmail.com",
-    summer: "TBD",
-    schoolYear: "TBD",
-    location: "Washington, UT",
-    availability: "TBD",
-  },
-  {
-    name: "Allyson Gardner",
-    city: "Santa Clara",
-    certification: "Orton Gillingham Tutor, BS, MS",
-    phone: "(435)313-6934",
-    email: "allyson@kidsnbooks.com",
-    summer: "TBD",
-    schoolYear: "TBD",
-    location: "Santa Clara, UT",
-    availability: "TBD",
-  },
 ];
 
 const TutorCardList = () => {
@@ -174,17 +176,22 @@ const TutorCardList = () => {
                 <span className="font-semibold">Phone:</span> {currentTutor.phone}
               </div>
               <div>
+                <span className="font-semibold">Location:</span> {currentTutor.location}
+              </div>
+              <div>
                 <span className="font-semibold">Summer:</span> {currentTutor.summer}
               </div>
               <div>
                 <span className="font-semibold">School year:</span> {currentTutor.schoolYear}
               </div>
               <div>
-                <span className="font-semibold">Location:</span> {currentTutor.location}
-              </div>
-              <div>
                 <span className="font-semibold">Before/After school:</span> {currentTutor.availability}
               </div>
+              {currentTutor.online && (
+                <div>
+                  <span className="font-semibold">Online:</span> {currentTutor.online}
+                </div>
+              )}
             </div>
 
             <div className="mt-8 flex justify-center gap-2">

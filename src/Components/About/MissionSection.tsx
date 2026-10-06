@@ -27,7 +27,15 @@ const MissionSection: React.FC<MissionSectionProps> = ({ text }) => {
       </div>
 
       <div className="max-w-5xl mx-auto text-center font-puffin text-lg md:text-2xl leading-8 md:leading-9 relative">
-        {text}
+        <div>{text}</div>
+        <div className="mt-8 flex justify-center">
+          <a
+            href="mailto:contact@rflutah.org"
+            className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 font-cubano text-sm tracking-wide uppercase text-[color:var(--color-blue)] shadow-sm ring-1 ring-white/30 transition-colors duration-200 hover:bg-[color:var(--color-softBlue)] hover:text-white md:text-base"
+          >
+            Contact us at contact@rflutah.org
+          </a>
+        </div>
       </div>
     </section>
   );
