@@ -15,18 +15,6 @@ type Tutor = {
 
 const tutorList: Tutor[] = [
   {
-    name: "Janice Chandler",
-    city: "Santa Clara",
-    certification: "Orton Gillingham Tutor, BS, MS",
-    phone: "(435)817-6734",
-    email: "Janchan16@gmail.com",
-    summer: "Yes",
-    schoolYear: "Yes",
-    location: "Bloomington, UT",
-    availability: "Yes",
-    online: "Yes",
-  },
-  {
     name: "Allyson Gardner",
     city: "Santa Clara",
     certification: "Orton Gillingham Tutor, BS, MS",
@@ -139,6 +127,18 @@ const tutorList: Tutor[] = [
     schoolYear: "TBD",
     location: "St. George, UT",
     availability: "TBD",
+  },
+  {
+    name: "Janice Chandler",
+    city: "Santa Clara",
+    certification: "Orton Gillingham Tutor, BS, MS",
+    phone: "(435)817-6734",
+    email: "Janchan16@gmail.com",
+    summer: "Yes",
+    schoolYear: "Yes",
+    location: "Bloomington, UT",
+    availability: "Yes",
+    online: "Yes",
   },
 ];
 
